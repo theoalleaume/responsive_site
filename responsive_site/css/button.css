@@ -1,0 +1,70 @@
+.button
+{
+    display: inline-block;
+    font-family: sans-serif;
+    padding: 1em 2em;
+    color:white;
+    font-weight: 700;
+    background: #2b2b2b;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (maw-width:500px) {
+    .button
+    {
+        font-size: 8px;
+    }
+}
+
+.button-orange
+{
+    background: #D38A1D;
+}
+.button-orange:hover
+{
+    background: darkred;
+    transform: scale(1.1);
+}
+.button-rounded
+{
+    border-radius: 2em;
+}
+
+.button-brown
+{
+    background: #C29C7B;
+    border: 2px solid black;
+    transition: 1.5s;
+}
+.button-brown:hover
+{
+    background-color: #B28258;
+    color: black;
+    transform: scale(1.1);
+    border: none;
+}
+.button-black
+{
+    background: rgb(75, 75, 75);
+    transition: 1.5s;
+}
+.button-black:hover
+{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+.button-blue
+{
+    background-color: #D7E6FA;
+    color: black;
+}
+.button-blue:hover
+{
+    background-color: #AACAF4;
+    color: black;
+}

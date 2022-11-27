@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="/images/Leo_jonesy.png" alt="Léo_jonesy" width="50" height="50">
+        <ul class="liste">
+            <li>Home</li>
+            <li>A propos</li>
+            <li>Projet 1</li>
+            <li>Projet 2</li>
+            <li>Projet 3</li>
+        </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="collapse" id="navbarToggleExternalContent">
+            <li class="p-4">Home</li>
+            <li class="p-4">A propos</li>
+            <li class="p-4">Projet 1</li>
+            <li class="p-4">Projet 2</li>
+            <li class="p-4">Projet 3</li>
+        </ul>
+    </nav>
+
+    <div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="/images/scène_d'architecture_intérieur.png" class="d-block w-100"
+                        alt="rendu_architecture">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/images/album.png" class="d-block w-100" alt="album">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/site.png" class="d-block w-100" alt="site">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="presentation">
+        <div class="container-fluid cadre-presentation">
+            <img src="/images/moi.jpeg" class="image rond"></img>
+            <h1>ALLEAUME THÉO</h1>
+            <p>Fan de coding et de jeux vidéo, j'aspire un jour à être le meilleur <span class="line">dresseur</span>
+                codeur, je me battrais sans répit,
+                je ferai tout pour être vainqueur et gagner les défis.
+                Traquant avec espoir,
+                les lignes de codes et leurs mystères,
+                le secret de leurs pouvoirs.</p>
+        </div>
+    </section>
+
+    <section class="section-1">
+        <h2>Projet 1 :</h2>
+        <div class="card">
+            <div class="card_1">
+                <div class="card_image">
+                    <img src="/images/scène_d'architecture_intérieur.png" alt="scène_intérieur">
+                </div>
+
+                <div class="card_text">
+                    <p>Le 1er projet est le projet que j'ai le plus aimé faire. Le texturing était sympa et j'ai
+                        vraiment
+                        pris du plaisir à le faire.</p>
+                </div>
+            </div>
+            <a href="#" class="button button-blue button-rounded">En savoir plus</a>
+        </div>
+    </section>
+
+    <section class="section-2">
+        <div class="left">
+            <h2>Projet 2 :</h2>
+            <img src="/images/album.png" alt="album" width="250" height="150">
+
+        </div>
+        <div class="right">
+            <p>Le 2ème projet est un projet photoshop que nous avions fait dès le début d'année sur l'artiste que nous
+                avions aussi choisi en début d'année. Le but : créer le prochain album de notre artiste en utilisant les
+                méthodes vu en cours. Voici ce que cela à donner pour moi. </p>
+            <a href="#" class="button button-black button-rounded">En savoir plus</a>
+        </div>
+    </section>
+    <section class="section-3">
+
+        <div class="container-fluid">
+            <h2>Projet 3 :</h2>
+            <div class="row m-5">
+                <div class="col-12 col-md-8 col-sm-12 align-content-center">
+                    <img src="/images/site.png" alt="site">
+                </div>
+                <div class="col-12 col-md-4 col-sm-12">
+                    <h1>A propos</h1>
+                    <p>Mon 3ème projet est un site responsive caractérisant le premier module HTML/CSS de l'année. Nous
+                        devions reprendre une des marques proposées et refaire un site à partir de rien.</p>
+                    <a href="#" class="button button-brown button-rounded">En savoir plus</a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

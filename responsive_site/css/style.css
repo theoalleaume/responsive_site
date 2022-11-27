@@ -1,0 +1,121 @@
+@import url(/css/cadre.css);
+@import url(/css/button.css);
+@import url(/css/images.css);
+@import url(/css/section.css);
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: url(/images/background.jpeg);
+}
+
+nav img
+{ 
+    animation: rotate 5s linear infinite;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #bea779;
+    
+}
+.liste
+{
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    right: 0;
+    top: 0;
+}
+.liste li
+{
+    color: black;
+    padding-right: 20px;
+}
+
+nav button
+{
+    display: none;
+    opacity: 0;
+}
+
+#navbarToggleExternalContent
+{
+    list-style: none;
+    gap: 30px;
+}
+
+h2
+{
+    text-decoration: underline;
+}
+.left img
+{
+    margin-top: 25px;
+}
+.right
+{
+    font-size: 20px;
+    padding: 1em;
+}
+.row img
+{
+    width: 500px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+@keyframes rotate{
+    
+    0%
+    {
+        transform: rotate(0);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width:500px)
+{
+    nav
+    {
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .liste
+    {
+        display: none;
+    }
+    nav button
+    {
+        display:flex;
+        opacity: 1;
+    }
+    .right
+    {
+        font-size: 15px;
+    }
+    .row img
+    {
+        width: 250px;
+        height: 125px;
+    }
+}
+@media screen and (min-width:510px) and (max-width:570px)
+{
+    nav
+    {
+        flex-direction: column;
+    }
+}

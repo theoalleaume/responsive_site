@@ -1,0 +1,58 @@
+.presentation
+{
+    margin-top: 50px;
+}
+.presentation div img:hover
+{
+    cursor: pointer;
+    animation: 4s fast_rotate cubic-bezier(.85,-0.36,0,.98) infinite;
+}
+.cadre-presentation img
+{
+    margin: 30px 10px 30px 10px;
+}
+.cadre-presentation p
+{
+    padding: 1em 2em;
+}
+.line
+{
+   text-decoration: line-through; 
+}
+.section-1
+{
+    min-height: 250px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+}
+
+.section-2
+{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(250px,auto);
+    background-color: azure;
+    margin-top: 50px;
+    min-height: 250px;
+    padding: 1em;
+}
+
+.section-3
+{
+    margin-top: 50px;
+    background-color: #D2B69E;
+    min-height: 250px;
+}
+
+@keyframes fast_rotate{
+    
+    0%
+    {
+        transform: rotate(0);
+    }
+    100%
+    {
+        transform: rotate(720deg);
+    }
+}
